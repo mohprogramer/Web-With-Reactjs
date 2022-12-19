@@ -58,6 +58,41 @@
 }
 
 .first{
-    color: hsl(35, 77%, 62%);
-    padding:0px 20px;
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+    width: 85%;
+    margin: 10px auto;
 }
+
+.second {
+    border-bottom: 1px solid hsl(233, 8%, 79%);
+    width: 85%;
+    margin: 10px auto;
+}
+
+.third{
+    width: 85%;
+    margin: 10px auto;
+}
+
+.rightContainer p{
+    color: hsl(233, 8%, 79%);
+    padding:0px 10px;
+}
+
+.rightContainer h1{
+    color: hsl(35, 77%, 62%);
+    padding:0px 10px;
+}
+
+.rightContainer h3:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+.rightContainer h3{
+    color: hsl(36, 100%, 99%);
+    padding:0px 10px;
+}
+
+
+

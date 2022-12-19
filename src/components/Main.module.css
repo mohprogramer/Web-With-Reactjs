@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    width: 1140px;
+    justify-content: space-between;
+    height: 490px;
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+.leftContainer {
+    width: 730px;
+}
+
+.imgContainer{
+    width: 100%;
+}
+
+.imgContainer img{
+    width: 730px;
+}
+
+.rightContainer {
+    width: 360px;
+    background-color: hsl(240, 100%, 5%);
+    height: 475px;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.web3 h1{
+    margin-top: 30px;
+    font-weight: 800;
+    line-height: 45px;
+    font-size: 50px;
+}
+
+.dive p{
+    margin-top: 25px;
+    color:hsl(236, 13%, 42%);
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.dive button {
+    all: unset;
+    color: white;
+    background-color: hsl(5, 85%, 63%);
+    padding: 10px 35px;
+    margin-top: 10px;
+}
+
+.dive button:hover {
+    background-color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+
+.first{
+    color: hsl(35, 77%, 62%);
+    padding:0px 20px;
+}

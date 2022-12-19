@@ -1,0 +1,25 @@
+.container {
+    width: 1140px;
+    background-color: transparent;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li {
+    margin: 0 25px;
+    color: hsl(236, 13%, 42%);
+}
+
+.menu ul li:hover {
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}

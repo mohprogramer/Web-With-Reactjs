@@ -15,9 +15,10 @@
 }
 
 .menu ul li {
-    margin: 0 25px;
+    margin-left: 45px;
     color: hsl(236, 13%, 42%);
 }
+
 
 .menu ul li:hover {
     color: hsl(35, 77%, 62%);

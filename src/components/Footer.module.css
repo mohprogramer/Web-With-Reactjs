@@ -1,0 +1,51 @@
+.container {
+    width: 1140px;
+    margin: 40px auto 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.cart {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textContainer{
+    margin-left: 15px;
+    height: fit-content;
+    margin-bottom:15px;
+}
+
+.textContainer h1{
+    color:  hsl(233, 8%, 79%);
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.textContainer h3{
+    color: hsl(240, 100%, 5%);
+    margin: 0 0 7px;
+    padding: 0;
+
+}
+
+.textContainer h3:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+.textContainer p{
+    color: hsl(236, 13%, 42%);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.imgContainer img{
+    width: 100px;
+    height: 130px;
+}
+
